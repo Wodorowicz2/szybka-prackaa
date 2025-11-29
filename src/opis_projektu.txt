@@ -1,0 +1,69 @@
+Tytuł projektu: [Nazwa projektu]
+Cel: [Krótki opis celu projektu]
+
+Kamienie milowe:
+1. M1 — [Nazwa kamienia milowego] — termin: [YYYY-MM-DD]
+2. M2 — [Nazwa kamienia milowego] — termin: [YYYY-MM-DD]
+
+Schemat podziału zadań:
+- Każde zadanie ma: ID | Nazwa | Opis | Właściciel | Est. (godz) | Priorytet (W/S/N) | Zależności (ID) | Termin | Status
+
+Przykładowa lista zadań:
+1. ID: T1
+    Nazwa: Analiza wymagań
+    Opis: Zbieranie wymagań od interesariuszy, dokumentacja
+    Właściciel: [Imię]
+    Est.: 8h
+    Priorytet: W
+    Zależności: -
+    Termin: [YYYY-MM-DD]
+    Status: Do zrobienia
+
+2. ID: T2
+    Nazwa: Projekt architektury
+    Opis: Schemat modułów i interfejsów
+    Właściciel: [Imię]
+    Est.: 12h
+    Priorytet: W
+    Zależności: T1
+    Termin: [YYYY-MM-DD]
+    Status: Do zrobienia
+
+3. ID: T3
+    Nazwa: Implementacja modułu A
+    Opis: Kodowanie i testy jednostkowe modułu A
+    Właściciel: [Imię]
+    Est.: 20h
+    Priorytet: S
+    Zależności: T2
+    Termin: [YYYY-MM-DD]
+    Status: Do zrobienia
+
+4. ID: T4
+    Nazwa: Integracja i testy
+    Opis: Scalanie modułów, testy integracyjne
+    Właściciel: [Imię]
+    Est.: 16h
+    Priorytet: W
+    Zależności: T3
+    Termin: [YYYY-MM-DD]
+    Status: Do zrobienia
+
+5. ID: T5
+    Nazwa: Dokumentacja i wdrożenie
+    Opis: Instrukcje użytkownika, deploy
+    Właściciel: [Imię]
+    Est.: 8h
+    Priorytet: N
+    Zależności: T4
+    Termin: [YYYY-MM-DD]
+    Status: Do zrobienia
+
+Zasady:
+- Priorytety: W (wysoki), S (średni), N (niski)
+- Aktualizuj status po zakończeniu zadania: Do zrobienia / W trakcie / Zrobione
+- Raz w tygodniu synchronizacja statusów i przegląd priorytetów
+
+Notatki:
+- Rozbij duże zadania (>24h) na podzadania.
+- Zapisuj ważne decyzje i zmiany wymagań bezpośrednio przy zadaniu.
